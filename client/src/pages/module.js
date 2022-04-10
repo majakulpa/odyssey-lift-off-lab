@@ -2,7 +2,6 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import { Layout, QueryResult } from "../components";
 import ModuleDetail from "../components/module-detail";
-import { GET_TRACK } from "./track";
 
 /** GET_MODULE gql query to retrieve a specific module by its ID */
 export const GET_MODULE_AND_PARENT_TRACK = gql`
